@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".terms_and_condition">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="120dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Trems And Condotion"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_back_right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:layout_marginTop="200dp"
+                    android:padding="25dp"
+                    android:textStyle="bold"
+                    android:text="These Terms and Conditions  govern your access to and use of the Healthcare mobile application  and related services provided by [Health care].
+By accessing or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, you may not use the App.
+
+1. Use of the App
+
+1.1 License: Subject to these Terms, we grant you a limited, non-exclusive, non-transferable, revocable license to use the App for your personal, non-commercial use.
+1.2 Registration: You may be required to create an account to access certain features of the App. You agree to provide accurate, current, and complete information during the registration process and to keep your account information updated.
+1.3 Access and Availability: We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice. We will not be liable if the App is unavailable at any time or for any period.
+
+2. User Content
+
+2.1 Submission: You may have the opportunity to submit content, including but not limited to text, images, and videos, through the App (987654321). By submitting User Content, you grant us a worldwide, non-exclusive, royalty-free, perpetual, irrevocable, and fully sublicensable license to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform, and display such User Content in connection with the App.
+2.2 Ownership: You retain ownership of your User Content. However, by submitting User Content, you represent and warrant that you have the necessary rights to grant the license described in section 2.1.
+
+3. Privacy
+Our collection and use of your personal information are governed by our Privacy Policy. By using the App, you consent to the collection and use of your personal information as described in the Privacy Policy.
+
+4. Prohibited Conduct
+You agree not to:
+(a) Use the App in any way that violates any applicable law or regulation;
+(b) Impersonate any person or entity or falsely state or otherwise misrepresent your affiliation with a person or entity;
+(c) Interfere with or disrupt the operation of the App or servers or networks connected to the App;
+(d) Engage in any form of data mining, scraping, harvesting, or other unauthorized collection or use of information;
+(e) Upload or transmit any viruses, worms, malware, or other harmful code;
+(f) Attempt to gain unauthorized access to any part of the App or any other systems or networks connected to the App.
+5. Intellectual Property
+The App and its entire contents, features, and functionality are owned by us or our licensors and are protected by copyright, trademark, and other intellectual property laws. You may not modify, reproduce, distribute, transmit, display, perform, or create derivative works of the App without our prior written consent.
+6. Disclaimer of Warranties
+THE APP IS PROVIDED AS  EITHER EXPRESS OR IMPLIED. WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+7. Limitation of Liability
+IN NO EVENT SHALL WE BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING, WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR IN CONNECTION WITH YOUR USE OF THE APP.
+8. Governing Law
+These Terms shall be governed by and construed in accordance with the laws of [jurisdiction], without regard to its conflict of law principles.
+9. Changes to Terms
+W reserve the right to modify these Terms at any time. If we make material changes to these Terms, we will notify you by email or by posting a notice on the App prior to the effective date of the changes. Your continued use of the App after the effective date of the revised Terms constitutes your acceptance of the changes.
+10. Contact Us
+If you have any questions about these Terms, please contact us at [987654321].
+Last Updated: [22-02-2024]
+
+This terms and conditions document serves as a template and should be customized to reflect the specific terms and policies of your healthcare app. Additionally, it's crucial to ensure compliance with relevant laws and regulations in your jurisdiction."/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

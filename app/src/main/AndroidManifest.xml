@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_health_care"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_health_care"
+        android:supportsRtl="true"
+        android:theme="@style/Application_HealthCare"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".help_center"
+            android:exported="false" />
+        <activity
+            android:name=".privacy_policy"
+            android:exported="false" />
+        <activity
+            android:name=".terms_and_condition"
+            android:exported="false" />
+        <activity
+            android:name=".contect_us"
+            android:exported="false" />
+        <activity
+            android:name=".about_us"
+            android:exported="false" />
+        <activity
+            android:name=".Finddetails_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Order_details_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Report_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Register_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".splash_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Book_Doctor_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DocterActivity"
+            android:exported="false"/>
+
+
+        <activity
+            android:name=".Book_Medicine_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Medicine_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Book_Lab_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Lab_Test_Activity"
+            android:exported="true" >
+
+
+
+        <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

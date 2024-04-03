@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help_center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="120dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Help Center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_back_right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="200dp"
+                    android:padding="25dp"
+                    android:text="Welcome to Healthcare!
+
+                    Help available to 24*7
+                    Contect no:-987654321
+
+
+At Healthcare, we are dedicated to revolutionizing the way you manage your health and wellness. Our mission is to empower individuals to take control of their well-being through innovative technology and personalized care.
+
+Founded by a team of passionate healthcare professionals and tech enthusiasts, Healthcare brings together the expertise of medical professionals and the convenience of modern technology to deliver comprehensive healthcare solutions right to your fingertips.
+
+Our platform offers a range of features designed to make managing your health easier and more accessible than ever before. Whether you're tracking your daily activity, monitoring your vital signs, or seeking expert medical advice, Healthcare is here to support you every step of the way.
+
+We believe that everyone deserves access to high-quality healthcare, which is why we are committed to creating an inclusive and user-friendly experience for all. Our team works tirelessly to ensure that our app is accessible to individuals of all ages, backgrounds, and abilities.
+
+At Healthcare, we prioritize your privacy and security above all else. We adhere to the highest standards of data protection and confidentiality to safeguard your personal information and ensure your peace of mind.
+
+Thank you for choosing Healthcare as your trusted healthcare partner. We are honored to be a part of your journey toward better health and wellness.
+
+For any inquiries or assistance, please don't hesitate to contact our friendly support team. We're here to help!
+
+Stay healthy,
+The Healthcare Team"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

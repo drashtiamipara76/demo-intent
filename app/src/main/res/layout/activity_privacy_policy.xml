@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".privacy_policy">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_rectangle">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="120dp"
+            android:layout_marginTop="30dp"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Privacy Policy"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="30dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_back_right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="200dp"
+                    android:padding="25dp"
+                    android:text="This Privacy Policy describes how Healthcare collects, uses, and discloses your personal information when you use our mobile application app and related services.
+
+Information We Collect
+
+Information You Provide: When you register an account, use the App, or communicate with us, we may collect personal information such as your name, email address, date of birth, gender, medical history, and other information you choose to provide.
+
+Health and Wellness Data: We may collect health-related information such as your activity levels, vital signs, medications, symptoms, and other health data that you voluntarily input or sync with compatible devices.
+
+Device Information: We may collect information about your device, including unique device identifiers, IP address, operating system, and mobile network information, to provide and improve our Services.
+
+How We Use Your Information
+
+Provide and Personalize Services: We use your information to deliver personalized healthcare services, including tracking your health metrics, providing health recommendations, and tailoring content to your preferences.
+
+Communicate with You: We may use your contact information to send you important updates, service announcements, and promotional materials. You can opt out of receiving marketing communications at any time.
+
+Improve and Develop: We analyze usage patterns, trends, and user feedback to improve our Services, develop new features, and enhance the user experience.
+
+Data Sharing and Disclosure
+
+Service Providers: We may share your information with third-party service providers who assist us in providing and maintaining the Services, such as hosting providers, analytics providers, and customer support services.
+
+Legal Compliance: We may disclose your information if required by law, subpoena, or other legal process, or if we believe disclosure is necessary to protect our rights, property, or safety, or the rights, property, or safety of others.
+
+With Your Consent: We may share your information with third parties for purposes not covered by this Privacy Policy, with your consent.
+
+Data Security
+
+We take reasonable measures to protect your personal information from unauthorized access, disclosure, alteration, and destruction. However, no method of transmission over the internet or electronic storage is 100% secure, and we cannot guarantee absolute security.
+
+Your Choices
+
+You can access, update, or delete your personal information by accessing your account settings within the App. You may also choose to disable certain features or opt out of data collection altogether, although this may limit your ability to use certain parts of the Services.
+
+Children's Privacy
+
+The Services are not intended for children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected information from a child under 13, please contact us immediately.
+
+Changes to this Privacy Policy
+
+We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by posting the updated Privacy Policy on our website or within the App.
+
+Contact Us
+
+If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at [987654321].
+
+Last Updated: [22-02-2024]
+
+This privacy policy serves as a template and should be customized to reflect the specific data practices and legal requirements of your healthcare app. It's essential to ensure compliance with relevant privacy laws and regulations in your jurisdiction."/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
